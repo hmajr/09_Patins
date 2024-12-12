@@ -2,31 +2,32 @@ nav{
   max-width: 80rem;
   width: 100%;
   padding: 1.25rem 2rem;
+  margin-inline: auto;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  img{
+  & img{
     width: 2rem;
     height: 2rem;
 
     transition: transform 500ms;
   }
 
-  img[src*="logo"]:hover{
+  & img[src*="logo"]:hover{
     transform: rotate(90deg);
   }
 
-  img[src*="shopping"]:hover{
+  & img[src*="shopping"]:hover{
     transform: rotate(-30deg);
   }
 
-  a{
+  & a{
     position: relative;
   }
 
-  a span{
+  & a span{
     position: absolute;
     top: -0.5rem;
     right: -0.5rem;
@@ -42,6 +43,4 @@ nav{
 
     border-radius: 50%;
   }
-
-
 }
