@@ -31,11 +31,11 @@
   --text-xl: 4rem;
 
   /* fonts */
-  --heading1: 700 var(--text-xl)/1.25 --ff-syne;
-  --heading2: 700 var(--text-lg)/1.20 --ff-syne;
+  --heading1: 700 var(--text-xl)/1.25 var(--ff-syne);
+  --heading2: 700 var(--text-lg)/1.20 var(--ff-syne);
 
-  --button-label: 500 var(--text-base)/1.50 --ff-montserrat;
-  --span: 500 var(--text-sm)rem/1.50 --ff-montserrat;
+  --button-label: 500 var(--text-base)/1.50 var(--ff-montserrat);
+  --span: 500 var(--text-sm)rem/1.50 var(--ff-montserrat);
   
 }
 
